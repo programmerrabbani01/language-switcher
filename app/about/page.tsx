@@ -2,7 +2,7 @@
 
 import { useLanguage } from "@/context/LanguageContext";
 
-const HomePage = () => {
+const AboutPage = () => {
   const { language, translations } = useLanguage();
   const { title, content } = translations[language]; // Fetch translation dynamically
 
@@ -14,4 +14,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default AboutPage;
